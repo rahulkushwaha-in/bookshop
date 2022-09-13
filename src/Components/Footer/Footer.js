@@ -32,7 +32,7 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/NamanSa83962307?s=08" rel="noreferrer" target="_blank">
+                    <a href="https://twitter.com/thakurhashands" rel="noreferrer" target="_blank">
                         <p>Twitter</p>
                     </a>
                 </li>
