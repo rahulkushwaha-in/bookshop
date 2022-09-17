@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 import jwt_decode from "jwt-decode";
 import { useUserLogin, useToast, useWishlist, useCart, useOrders, useSearchBar } from "../../index"
 import { BsShopWindow, BsFillBagFill } from "react-icons/bs"
-import logo from "./our-logo.png.png"
+import logo from "./logo.png"
 
 function Navbar() {
 
@@ -71,7 +71,8 @@ function Navbar() {
             <div className="left-topbar-container">
                 {/* <button id="top-bar-ham-menu-btn" className="icon-btn"><i className="fa fa-bars" aria-hidden="true"></i></button> */}
                 <Link to="/">
-                    <h2 className="top-bar-brand-name">BookHub </h2>
+                <img src={logo} alt=""/>
+                    {/* <h2 className="top-bar-brand-name"> </h2> */}
                 </Link>
                 {
                     location.pathname==="/shop" && 
